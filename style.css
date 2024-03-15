@@ -1,0 +1,69 @@
+
+body{
+  font-family: 'leoscar-sans-serif', sans-serif;
+  margin:0;
+  background-color: black;
+}
+#topnav {
+  background: linear-gradient(to bottom right,black,skyblue,white);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+#topnav a.active {
+  background-color: skyblue;
+  color: black;
+}
+
+.introContainer{
+  background:url("backgroundImg.png");
+  background-size: cover;
+  padding:40px;
+  width:1269px;
+  height:400px;
+  font-size: large;
+  color:skyblue;
+}
+#home{
+  background: linear-gradient(black,cyan,white);
+  height:400px;
+}
+.homeContainer{
+  display: flex;
+}
+.homeImg{
+  width:260px;
+  height:260px;
+  margin-left:20px;
+  margin-bottom:30px;
+}
+#Pros{
+  background:linear-gradient(to bottom right,black, lightgreen,skyblue);
+  height:400px;
+}
+#Cons{
+  background:linear-gradient(to bottom right,black, red,turquoise);
+  height:400px;
+}
+#Conclusion{
+  background:linear-gradient(to bottom right,black, yellow,cyan);
+  height: 400px;
+  text-align: center;
+}
+
